@@ -8,13 +8,18 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ *
+ * @author ezequiel
+ */
 @Service
 @Transactional
 public class ImpPersonaService{
-    @Autowired
+    
+    @Autowired 
     IPersonaRepository ipersonaRepository;
-
-     public List<Persona> list(){
+    
+    public List<Persona> list(){
          return ipersonaRepository.findAll();
      }
      
