@@ -1,0 +1,14 @@
+com.portfolio.eze
+com.portfolio.eze.Controller
+com.portfolio.eze.Dto
+com.portfolio.eze.Entity
+com.portfolio.eze.Repository
+com.portfolio.eze.Security
+com.portfolio.eze.Security.Controller
+com.portfolio.eze.Security.Dto
+com.portfolio.eze.Security.Entity
+com.portfolio.eze.Security.Enums
+com.portfolio.eze.Security.Jwt
+com.portfolio.eze.Security.Repository
+com.portfolio.eze.Security.Service
+com.portfolio.eze.Service
