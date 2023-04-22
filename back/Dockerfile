@@ -5,6 +5,7 @@ COPY target/eze-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 
 
+
 #FROM openjdk:17-alpine AS builder
 
 #COPY ../.mvn .mvn
