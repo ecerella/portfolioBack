@@ -1,7 +1,8 @@
 FROM amazoncorretto:11-alpine-jdk
 MAINTAINER eze
-COPY target/eze-0.0.1-SNAPSHOT.jar eze-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/eze-0.0.1-SNAPSHOT.jar"]
+ARG JAR_FILE=target/eze-0.0.1-SNAPSHOT.jar
+ADD ${JAR_FILE} eze-app.jar
+ENTRYPOINT ["java","-jar","/eze.app.jar"]
 
 
 
