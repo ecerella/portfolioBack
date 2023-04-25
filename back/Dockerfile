@@ -1,7 +1,7 @@
-FROM openjdk:11
+FROM amazoncorretto:8-alpine-jdk
 MAINTAINER eze
 EXPOSE 8080
-COPY ./target/eze-0.0.1-SNAPSHOT.jar ezeApp.jar
+COPY "./target/eze-0.0.1-SNAPSHOT.jar" "ezeApp.jar"
 ENTRYPOINT ["java","-jar","/ezeApp.jar"]
 
 
